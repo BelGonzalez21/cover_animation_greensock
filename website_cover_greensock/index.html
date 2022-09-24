@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Website with animations</title>
+</head>
+<body>
+    <!-- cursor -->
+    <div class="cursor cursor-circle"></div>
+    <div class="cursor cursor-point"></div>
+    <main>
+        <nav class="hide">
+            <img src="./img/signature.png" alt="" class="signature getHover">
+            <ul>
+                <li class="nav-link getHover">
+                    <a href="#">Work<i class='bx bx-chevron-down' ></i></a>
+                </li>
+                <li class="nav-link getHover">
+                    <a href="#">About</a>
+                </li>
+                <li class="nav-link getHover">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="image-wrap getHover"></div>
+        <h1 class="big-name getHover">
+            Michael<br>Perry
+        </h1>
+        <!-- scroll -->
+        <span class="scroll hide">Scroll Down</span>
+        <span class="line hide"></span>
+        <div class="bottom-section hide">
+            <p>
+                <i class='bx bx-map'></i>Located in Argentina.
+            </p>
+            <ul class="social-media">
+                <li>
+                    <a href="#" class="getHover"><i class='bx bxl-instagram'></i></a>
+                </li>
+                <li>
+                    <a href="#" class="getHover"><i class='bx bxl-linkedin'></i></a>
+                </li>
+                <li>
+                    <a href="#" class="getHover"><i class='bx bxl-twitter'></i></a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <!-- javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
