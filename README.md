@@ -1,1 +1,1 @@
-# Repository with diferent projects, organize in their own branch.
+# Repository with different projects, organized in their own branch.
